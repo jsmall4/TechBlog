@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Andale Mono", monospace;
+  color: #333;
+  background-color: #f7f4e3;
+}
+
+a {
+  text-decoration: none;
+  color: #8e7f2e;
+  font-weight: bold;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #3486eb;
+}
+
+button {
+  background-color: rgb(29, 25, 25);
+  border: 0;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.1s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3486eb;
+}
+
+.blog-list {
+  margin: 0;
+  padding: 0;
+}
+
+textarea,
+input {
+  padding: 0.5%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 1px solid #3486eb;
+}
+
+textarea {
+  min-width: 40%;
+  min-height: 100px;
+}
+
+form > div {
+  margin-bottom: 2%;
+}
+
+form label {
+  display: block;
+}
+
+.logo {
+  border: solid rgb(29, 25, 25);
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  background-color: #7d7d7d;
+  color: #ebf525;
+}
+.logo a {
+  color: #dee910;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+}
+
+header h1 {
+  font-size: 1em;
+}
+
+main {
+  flex: 1;
+  padding: 2% 4%;
+}
+
+.navBtn {
+  margin-left: 16px;
+}
+
+.btn-no-style {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #a08f30;
+  font-size: 100%;
+  font-weight: bold;
+  transition: color 0.1s;
+  margin-left: 16px;
+  font-family: "Andale Mono", monospace;
+}
+
+.btn-no-style:hover {
+  background: none;
+  color: #2274d8;
+}
+
+.delete-blog-btn {
+  background-color: #ee0f0f;
+}
+
+.delete-blog-btn:hover {
+  background-color: #ee0f0f0c;
+}
+
+.blog {
+  margin-bottom: 2%;
+  line-height: 150%;
+}
+
+.blog .title span {
+  font-style: italic;
+  font-size: 90%;
+  color: #7d7d7d;
+}
+
+.edit-link {
+  display: block;
+  margin: -1.5% 0 2% 0;
+}
+
+.comment-form {
+  margin-bottom: 5%;
+}
+
+.comment {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.comment:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.comment .meta {
+  font-size: 5px;
+}
+
+.new-blog-form input {
+  width: 300px;
+}
+
+.edit-blog-form {
+  margin-bottom: 5%;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 110%;
+}
+
+.blog-text {
+  height: 20px;
+}
+
+.commentInfo {
+  font-size: 1rem;
+}
+
+.blogText {
+  border: solid rgb(29, 25, 25) 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.loginBox {
+  margin: 30px;
+}
+
+.loginBox h3 {
+  border-bottom: solid 1px rgb(29, 25, 25);
+}
+
+.loginContainer {
+  border: 1px solid rgb(29, 25, 25);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
